@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1350px;
+    margin:auto;
+}
+.my-btn {
+    border-radius: 8px;
+    padding: 8px; 
+    font-weight: 600;
+    border: 1px solid #006a50;
+    color: #006a50;
+
+
+}
+}
+header{
+    background-color: aliceblue; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.link-parent {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    justify-content: flex;
+}
+.link-parent a {
+    text-decoration: none;
+}}
