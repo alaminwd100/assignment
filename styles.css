@@ -1,0 +1,200 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+.font-sans-serif {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .logo h2{
+    font-size: 45px;
+
+  }
+  .color-green {
+    color: #30b868;
+  }
+  .btn {
+    background-color: #30B868;
+    border:none;
+    padding:12px 16px 12px 16px;
+    border-radius: 4px;
+    /* font-size: 20px; */
+    /* font-weight: 100; */
+    font-color: white;
+    cursor: pointer;
+
+
+  }
+  .section heading {
+    max-width:1360px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .section heading h2{
+    font-size: 35px;
+    margin-bottom: 44px;
+  }
+  .section heading p{
+    font-size: 18px;
+    margin-bottom: 44px;
+    line-height: normal;
+  }  
+  .text-center{
+    text-align: center;
+  }
+/* main style */
+  header{
+    background-color: #FFFFFF;
+    background: url(../assignment/B13-A01-Knowledge-Vault/Sections/Navbar.png), url(./B13-A01-Knowledge-Vault/assets/logo-navbar.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+  }
+
+
+nav{
+    width: 78%;
+    max-width: 1600px;
+   /* border: 1px solid red;*/
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+
+}
+nav .menu a {
+    font-size: 20px;
+    color:#30B868;
+    text-decoration: none;
+
+}
+
+#banner {
+    /*border: 1px solid red;*/
+    max-width: 1600px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40;
+    padding: 70px 120px 134px 120px;
+
+}
+#banner .banner-content{
+  max-width: 585px;
+}
+#banner .banner-content h2{
+font-size: 20px;
+font-weight: 600;
+color: #FFFFFF;
+margin-bottom: 5px;
+}
+#banner .banner-content h1{
+font-size: 20px;
+font-weight: 600;
+color: #30B868;
+margin-bottom: 5px;
+}
+#banner .banner-content p{
+  font-size: 20px;
+  color: #30B868;
+  line-height: 30px;
+  margin-bottom: 30px;
+  }
+#banner .banner-content image{
+  max-width: 2042px;
+  vertical-align:middle ;
+}
+#notes{
+  padding-top: 132px;
+}
+#notes .notes-container{
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 120px;
+}
+#notes .notes-container .notes-info{
+  display: flex;
+  justify-content: space-around;
+}
+.notes-info .info-card p{
+    font-size: 18px;
+    line-height: normal;
+.notes-info .info-card h4{
+    font-size: 18px;
+    line-height: normal;
+}
+#solution, title{
+  padding-top: 120px;
+}
+#solution .solution-container{
+  max-width: 1600px;
+
+  margin:0 auto;
+}
+#solution .solution-container .brain-image{
+   display: flex;
+   gap: 40;
+
+}
+
+/*.solution-container .brain-card{
+  padding: 30px;
+  border: 1px solid;
+  max-width: 30px;
+}*/
+
+/* .brain-card img{
+  max-width: 44px;
+  margin-bottom: 30px
+}*/
+/*.brain-card{
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}*/
+/*.brain-card p{
+  font-size: 20px;
+  color: #FFFFFF;
+  length-height: 30px;
+}*/
+/* .my-btn {
+    border-radius: 8px;
+    padding: 8px; 
+    font-weight: 600;
+    border: 1px solid #006a50;
+    color: #006a50; */
+
+
+}
+/*.link-parent {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+    justify-content: flex;
+}*/
+/*.link-parent a {
+    text-decoration: none;
+}*/
+/* Hero styling */
+/*.hero-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    
+}*/
