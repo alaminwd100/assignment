@@ -48,12 +48,10 @@
 /* main style */
   header{
     background-color: #FFFFFF;
-    background: url(../assignment/B13-A01-Knowledge-Vault/Sections/Navbar.png), url(./B13-A01-Knowledge-Vault/assets/logo-navbar.png);
     background-position: top left;
     background-repeat: no-repeat;
     padding-top: 70px;
   }
-
 
 nav{
     width: 78%;
