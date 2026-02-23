@@ -69,9 +69,8 @@ nav{
 nav .menu{
     display: flex;
     list-style-type: none;
-    flex-direction: row;
-    justify-content:flex-start;
-    gap: 32;
+    flex--
+    gap: 32px;
     align-items: center;
 
 }
