@@ -13,7 +13,7 @@
     font-size: 45px;
 
   }
-  .color-green {
+  .color-green { 
     color: #30b868;
   }
   .btn {
@@ -23,7 +23,7 @@
     border-radius: 4px;
     /* font-size: 20px; */
     /* font-weight: 100; */
-    font-color: white;
+    font-color: #000000;
     cursor: pointer;
 
 
@@ -47,14 +47,15 @@
   }
 /* main style */
   header{
+    display: flex;
     background-color: #FFFFFF;
     background-position: top left;
     background-repeat: no-repeat;
-    padding-top: 70px;
+  
   }
 
 nav{
-    width: 78%;
+    width: 94%;
     max-width: 1600px;
    /* border: 1px solid red;*/
     height: 92px;
@@ -63,10 +64,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px 16px 120px;
+    margin: 0 auto;
 }
 nav .menu{
     display: flex;
     list-style-type: none;
+    flex--
     gap: 32px;
     align-items: center;
 
