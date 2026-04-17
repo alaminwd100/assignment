@@ -97,21 +97,21 @@ nav .menu a {
   max-width: 585px;
 }
 #banner .banner-content h2{
-font-size: 20px;
+font-size: 45px;
 font-weight: 600;
 color: #FFFFFF;
 margin-bottom: 5px;
 }
 #banner .banner-content h1{
-font-size: 72px;
+font-size: 45px;
 font-weight: 600;
 color: #30B868;
 margin-bottom: 5px;
 }
 #banner .banner-content p{
-  font-size: 72px;
-  color: #30B868;
-  line-height: 30px;
+  font-size: 18px;
+  color: #000000;
+  line-height: 18px;
   margin-bottom: 30px;
   }
 #banner .banner-content image{
